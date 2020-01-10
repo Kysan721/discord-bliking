@@ -1,15 +1,15 @@
 """
-install python and check the add to path option
+install python and dont forget to check the add to path option
 next to install required modules put this into a cmd:
 python -m pip install requests json
 or uncomment the next comment:
 """
 
-""" remove this line
+""" remove this line to uncomment
 # and restart twice the script
 from os import system
 system('python -m pip install requests json')
-"""#remove this line
+"""#remove this line also to uncomment
 
 import requests
 import time
